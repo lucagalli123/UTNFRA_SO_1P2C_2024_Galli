@@ -1,0 +1,1348 @@
+clear
+ls
+apt install tree
+sudo apt install tree
+sudo apt-get update
+sudo apt install tree
+clear
+ls
+cd ..
+ls
+tree
+clear
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+sudo git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+clear
+ls
+rm -r UTN-FRA_SO_Examenes/
+ls
+sudo rm -r UTN-FRA_SO_Examenes/
+ls
+clear
+ls
+cd ..
+ls
+c
+cd
+ll
+ls
+clear
+mkdir repogit
+ks
+ls
+cd repogit/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/lucagalli123/UTNFRA_SO_1P2C_2024_Galli.git
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a
+ls
+clear
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+tree
+clear
+sudo mkdir -p /Examenes-UTN/{alumno_1/parte_{1..3},alumno_2/parte{1..3},alumno_3/parte_{1..3},profesores}
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+tree Examenes-UTN/
+ll
+clear
+pwd
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+tree
+cd RTA_SCRIPT_Examen_20241003/
+vim Punto_A.sh 
+cat Punto_A.sh 
+clear
+ll
+cd
+ls
+cd ..
+ll
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+./Punto_A.sh
+sudo ./Punto_A.sh
+sudo chmod 775 Punto_A.sh 
+ll
+sudo chmod 755 Punto_A.sh 
+ll
+./Punto_A.sh 
+ll
+cd
+cd ..
+ls
+tree
+ls
+clear
+cd
+cd ..
+ls
+cd ..
+ls
+tree Examenes-UTN/
+ll
+cd ..
+ls
+clear
+tree Examenes-UTN/
+sudo rm -r Examenes-UTN/
+ls
+cd 
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+./Punto_A.sh 
+cd
+cd ..
+ls
+tree Examenes-UTN/
+clear
+ls
+cd
+l
+sudo groupadd p1c2_2024_gAlumno
+sudo groupadd p1c2_2024_gProfesores
+sudo cat /etc/group
+clear
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+sudo chmod 755 Punto_B.sh 
+ll
+cat Punto_B.sh 
+cler
+clear
+cd
+clear
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+sudo grep vagrant /etc/shadow
+clear
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G p1c2_2024_gAlumno p1c2_2024_A1
+ll
+cd ..
+ls
+cd
+ls
+cd ..
+ls
+su p1c2_2024_A1/
+sudo cat /etc/passwd
+clear
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G p1c2_2024_gAlumno p1c2_2024_A2
+ls
+clear
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G p1c2_2024_gAlumno p1c2_2024_A3
+ls
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G p1c2_2024_gProfesores p1c2_2024_P1
+ll
+ls
+su p1c2_2024_P1/
+cat /etc/passwd | tail -n6
+ls
+su p1c2_2024_A1
+vagrant
+clear
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+cat Punto_B.sh 
+clear
+ls
+clear
+ls
+cd
+ls
+cd ..
+ls
+ll
+cd /
+ls
+cd Examenes-UTN/
+ll
+sudo chown p1c2_2024_A1:p1c2_2024_A1 /Examenes-UTN/alumno_1/
+ll
+sudo chmod 750 /Examenes-UTN/alumno_1/
+ll
+sudo chown p1c2_2024_A2:p1c2_2024_A2 /Examenes-UTN/alumno_2
+ll
+clear
+sudo chmod 750 /Examenes-UTN/alumno_2/
+ll
+sudo chmod 760 /Examenes-UTN/alumno_2/
+ll
+sudo chown p1c2_2024_A3:p1c2_2024_A3 /Examenes-UTN/alumno_3
+ll
+sudo chmod 700 /Examenes-UTN/alumno_3
+ll
+sudo chown p1c2_2024_P1:p1c2_2024_P1 /Examenes-UTN/profesores/
+ll
+sudo chmod 775 /Examenes-UTN/profesores/
+ll
+clear
+ls
+ll
+clear
+ls
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+cat Punto_B.sh 
+ll
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+ll Examenes-UTN/
+clear
+ll
+tree Examenes-UTN/
+clear
+sudo tree Examenes-UTN/
+clear
+ls
+cd
+ls
+cd ..
+ls
+clear
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt" p1c2_2024_A1
+ls
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt" p1c2_2024_A1
+sudo cat /etc/passwd
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt" p1c2_2024_A1
+clear
+sudo -help
+su -help
+sudo -su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt"
+ls
+clear
+ls
+cd
+ls
+cd ..
+ls
+cd Examenes-UTN/
+ls
+sudo su
+exit
+sudo su
+exit
+su p1c2_2024_A2
+exit
+su p1c2_2024_A1
+exit
+su p1c2_2024_P1
+exit
+su p1c2_2024_P1
+exit
+rm -r Examenes-UTN/
+su p1c2_2024_A1
+sudo su
+su p1c2_2024_A1
+su p1c2_2024_A2
+ls
+clear
+ls
+clear
+history
+clear
+sudo cat /etc/shadow
+clear
+sudo -I -U vagrant
+sudo -L -U vagrant
+sudo -l -U vagrant
+clear
+sudo -l -U vagrant
+clear
+sudo -l -U vagrant
+sudo -l -U p1c2_2024_A1
+sudo adduser p1c2_2024_A1 sudo
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt" p1c2_2024_A1
+cd
+ls
+cd ..
+ls
+cd Examenes-UTN/
+tree
+clear
+ls
+cd ..
+ls
+cd home/
+ls
+cd vagrant/
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+ls
+clear
+ls
+cd
+ls
+cd ..
+ls
+sudo adduser p1c2_2024_A2 sudo 
+sudo adduser p1c2_2024_A3 sudo 
+sudo adduser p1c2_2024_P3 sudo 
+sudo adduser p1c2_2024_P1 sudo 
+clear
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt" p1c2_2024_A1
+clear
+sudo cat /etc/sudoers
+cleaqr
+clear
+sudo cat /etc/passwd
+clear
+sudo cat /etc/shadow
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt" p1c2_2024_A1
+clear
+su p1c2_2024_A1
+sudo su
+su p1c2_2024_A2
+clear
+cd ..
+ls
+cd ..
+ls
+sudo tree Examenes-UTN/
+sudo -su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt"
+ls
+sudo tree Examenes-UTN/
+su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumnos_1/validar1.txt"
+sudo -su -c "whoami > /Examenes-UTN/alumno_1/validar1.txt" p1c2_2024_A1
+sudo -su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
+-su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
+su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
+ls
+cd Examenes-UTN/
+ls
+tree
+sudo tree
+sudo cd alumno_1
+clear
+ls
+cd ..
+ls
+cd home/
+ls
+clear
+ls
+ll
+cd
+ls
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+cd ..
+ls
+clear
+ls
+su p1c2_2024_A1 -c whoami
+sudo man
+man sudo
+sudo man | grep sudo -su
+man man | grep sudo -su
+sudo man
+man su
+sudo man 
+man sudo
+man sudo | grep -s
+man sudo
+sudo cat /etc/sudoers.d/vagrant
+sudo cat /etc/sudoers.d/p1c2_2024_A1
+clear
+ls -l /etc/sudoers.d
+sudo ls -l /etc/sudoers.d
+clear
+ll
+ls
+cd ..
+ls
+clear
+ls
+sudo cat /etc/sudoers.d/vagrant
+sudo cat /etc/sudoers.d/p1c2_2024_A1
+sudo cat /etc/sudoers
+sudo cat /etc/group
+ll
+cd ..
+ll
+cd Examenes-UTN/
+ls
+tree
+sudo tree
+ll
+cd ..
+ls
+cd home/
+ls
+sudo su p1c2_2024_A1 -c whoami
+sudo su p1c2_2024_A1 -c whoami > /Examenes-UTN/alumno_1/validar.txt
+clear
+ll
+cd ..
+ls
+cd home/
+ls
+cd vagrant/
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat Punto_B.sh 
+ls
+./Punto_B.sh 
+ll
+cd ..
+ls
+cd ..
+cd
+cd ..
+ls
+cd ..
+ls
+cd Examenes-UTN/
+ls
+ll
+sudo -su -c "whoami > /Examenes-UTN/alumno_1/validar1.txt" p1c2_2024_A1
+sudo -su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
+sudo su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
+ls
+sudo tree
+cd ..
+clear
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+clear
+ls
+cd
+cd ..
+ls
+cd ,,
+ls
+cd ..
+ls
+sudo tree Examenes-UTN/
+cd homew
+cd home/
+ls
+cd vagrant/
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+./Punto_B.sh 
+ls
+cd /
+ls
+sudo tree Examenes-UTN/
+ls
+cat validar1.txt 
+cd ..
+ls
+cd alumno_1
+ls
+cd ..
+cd
+ls
+clear
+ls
+sudo /etc/passwd
+sudo cat /etc/passwd
+clear
+sudo cat /etc/group
+id
+id -l
+id man
+man id
+id -g
+man id
+clear
+ls
+ll
+cd ..
+ls
+cd ..
+ls
+cd Examenes-UTN/
+ls
+cd alumno_1/
+sudo cd alumno_1/
+cd
+ll
+ls
+cd ..
+ls
+cd Examenes-UTN/
+ll
+cd alumno_1/
+sudo cd alumno_1/
+cd
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat Punto_B.sh 
+clear
+ls
+cd
+cd ..
+ls
+cd Examenes-UTN/
+ls
+cd alumno_1/
+suso su
+ls
+sudo ls
+sudo cat parte_1
+sudo cat validar.txt
+sudo cat validar1.txt
+clear
+ls
+clear
+cd ..
+ls
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat Punto_B.sh 
+clear
+sudo su
+su p1c2_2024_A1
+su p1c2_2024_A1
+su p1c2_2024_A1
+su p1c2_2024_A1
+sudo su
+sudo su
+sudo su
+sudo su
+sudo su
+clear
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat Punto_B.sh 
+cat Punto_A.sh 
+clear
+cd ..
+exit
+ls
+clear
+ll
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_
+cd RTA_SCRIPT_Examen_20241003/
+ls
+clear
+cat Punto_B.sh 
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cd cd
+ls
+cd
+ls
+cd /
+ls
+lsblk
+clear
+ls
+cd home/
+ls
+cd ..
+ls
+mkdir -p /home/vagrant/Estructura_asimetrica/{correo/{cartas_{1..100},carteros_{1..10}},clientes/cartas_{1..100}}
+ls
+cd 
+ls
+tree Estructura_asimetrica/
+ls
+clear
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_D.sh 
+sudo chmod 777 Punto_D.sh 
+ls
+clear
+cd
+cd ..
+ls
+su p1c2_2024_A1
+vagrant
+clear
+ls
+ll
+sudo chown p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores/
+ll
+ls
+clear
+ls
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+ls
+clear
+ls
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+cd ..
+tree
+ls
+pwd
+cd ..
+ls
+clear
+cd ..
+ls
+cd repogit/
+ls
+clear
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+clear
+ls
+pwd
+sudo cat /proc/meminfo | grep MemTotal > /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/RTA_ARCHIVOS_Examen_20241003/Filtro_Basico.txt
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+car Filtro_Basico.txt 
+cat Filtro_Basico.txt 
+sudo dmicode -t chassis | grep Chassis
+sudo dmidecode -t chassis | grep Chassis
+sudo dmidecode -t chassis | grep Chassis >> /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/RTA_ARCHIVOS_Examen_20241003/Filtro_Basico.txt
+ls
+cat Filtro_Basico.txt 
+sudo dmidecode -t chassis | grep Manufacturer
+sudo dmidecode -t chassis | grep Manufacturer >> /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/RTA_ARCHIVOS_Examen_20241003/Filtro_Basico.txt
+ls
+cat Filtro_Basico.txt 
+clear
+ls
+cd ..
+ls
+cd RTA_E
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_E.sh 
+ls
+chmod 777 Punto_E.sh 
+ls
+clear
+ls
+cat Punto_E.sh 
+vim Punto_E.sh 
+ñs
+ls
+cat Punto_E
+cat Punto_E.sh 
+clear
+ls
+clear
+cd ..
+ls
+cd ..
+ls
+lsblk
+ls
+clear
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Examenes-UTN/
+ls
+sudo tree
+clear
+ls
+cd ..
+ls
+cd home/
+ls
+cd vagrant/
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_A.sh 
+ls
+clear
+ls
+cat Punto_A.sh 
+ls
+clear
+ls
+clear
+ls
+lbslk
+lsblk
+lsblk -f
+clear
+ls
+cat Punto_A.sh 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd vagrant/
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+git status
+clear
+fdisk -l
+sudo fdisk -l
+lsblk
+clear
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_C.sh 
+sudo chmod 777 Punto_C.sh 
+ls
+clear
+ls
+fdisk -l
+sudo fdisk -l
+lsblk -l
+clear
+lsblk -l
+ls
+./Punto_C.sh 
+clear
+lsblk -l
+fdisk -l
+sudo fdisk -l
+clear
+ll
+vim Punto_C.sh 
+lsblk -l
+lsblk -f
+ll
+vim Punto_C.sh 
+./Punto_C.sh 
+lsblk -l
+fdisk -f
+fkdisk -l
+sudo fdisk -
+sudo fdisk -l
+clear
+sudo fdisk -l
+clear
+lsblk -l
+clear
+ll
+vim Punto_C.sh 
+ls
+clear
+ll
+cat Punto_C.sh 
+clear
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+sudo fdisk -l
+clear
+ll
+cat Punto_C.sh 
+clear
+vim Punto_C.sh 
+ll
+sudo /Examenes-UTN/
+clear
+ls
+cd 
+cd /
+ls
+cd Examenes-UTN/
+ls
+tree
+sudp tree
+sudo tree
+clear
+su sudo
+clear
+ll
+vim Punto_C.sh 
+cd ..
+ls
+clear
+cd ..
+ls
+touch script_prueba_montaje.sh
+cim script_prueba_montaje.sh 
+vim script_prueba_montaje.sh 
+clear
+lsblk -f
+lsblk -l
+lsblk -f
+clear
+ls
+sudo fdisk -f
+sudo fdisk -l
+clear
+lsblk -f
+cd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat Punto_C.sh 
+clear
+ls
+cd
+cd ..
+cd
+ls
+script_prueba_ext4.sh
+touch script_prueba_ext4.sh
+clear
+ls
+vim script_prueba_ext4.sh 
+sudo chmod 777 script_prueba_ext4.sh 
+sudo chmod 777 script_prueba_montaje.sh 
+ls
+./script_prueba_ext4.sh 
+lbslk -f
+sudo lsblk -f
+clear
+lbslk -l
+lbslk -f
+lsb -f
+clear
+lsblk -f
+ls
+./script_prueba_montaje.sh 
+cd /
+ll
+sudo tree /Examenes-UTN/
+clear
+ls
+cd home/
+ls
+cd vagrant/
+ls
+vim script_prueba_montaje.sh 
+./script_prueba_montaje.sh 
+sudo tree /Examenes-UTN/
+lsblk -f
+clear
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat Punto_C.sh 
+clear
+ll
+vim Punto_A.sh 
+vim Punto_B.sh 
+vim Punto_D.sh 
+vim Punto_E.sh 
+ls
+clear
+cd ..
+ls
+tree
+clear
+su p1c2_2024_A1
+sudo su
+clear
+lsblk -f
+cat /etc/fstab
+clear
+cat /etc/fstab
+echo "/dev/sdc1 /Examenes-UTN/alumno_1/Parte_1 ext4 defaults 0 0"
+clear
+ll
+cd /
+ñs
+ls
+ll
+clear
+tree Examenes-UTN/
+sudo tree Examenes-UTN/
+echo "/dev/sdc1 /Examenes-UTN/alumno_1/parte_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+cat fstab
+cat /etc/fstab
+clear
+lsblk -f
+sudo mount -a
+lsblk -f
+ls
+cd home/
+ls
+cd vagrant/
+ls
+vim script_prueba_montaje.sh 
+clear
+ls
+./script_prueba_montaje.sh 
+lsblk -f
+l
+cat script_prueba_montaje.sh 
+clear
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_B.sh 
+cat Punto_C
+cat Punto_C.sh 
+ll
+vim Punto_C.sh 
+cat Punto_C.sh 
+ls
+clear
+ls
+cat Punto_A.sh 
+clear
+cat Punto_B.sh 
+cat Punto_C.sh 
+cat Punto_D.sh 
+cat Punto_E.sh 
+clear
+ls
+cat Punto_A.sh 
+cat Punto_B.sh 
+clear
+cat Punto_B.sh 
+mv Punto_B.sh Punto_c.sh
+ls
+cat Punto_c.sh 
+clear
+ls
+mv Punto_C.sh Punto_B.sh
+ls
+mv Punto_c.sh Punto_C.sh
+ls
+clear
+ls
+cat Punto_C.sh 
+cat Punto_B.sh
+clear
+curl -s ifconfig.me
+s
+af
+egfrd
+htj
+hdf
+jnfth
+dar
+dsadsadas
+clear
+cd
+clear
+curl -s ifconfig.me
+curl ifconfig.me
+curl -s ifconfig.me
+sudo curl -s ifconfig.me
+ls
+cd repogit/
+ls
+history
+clear
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ñs
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+clear
+vagrant exit
+exit
+clear
+ls
+curl -s ifconfig.me
+cat curl -s ifconfig.me
+clear
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+curl -s ifconfig.me
+cd UTN-
+cd UTN-FRA_SO_Examenes
+tree
+ls
+cd ..
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+clear
+curl -s ifconfig.me
+man curl
+curl -s ifconfig.me
+cd
+curl -s ifconfig.me
+cd /
+curl -s ifconfig.me
+curl ifconfig.me
+hostname -I
+curl -s ifconfig.me
+ifconfig
+sudo if config
+sudo ifconfig
+sudo su
+exit
+curl -s ifconfig.me
+clear
+curl -s ifconfig.me
+curl ifonfig.me
+host -I
+clear
+curl ifonfig.me
+curl -s ifconfig.me
+curl ifconfig.io
+ls
+cd repogit/
+ls
+curl ifconfig.io | awk '{print}'
+echo "Mi IP publica es: $(curl ifconfig.io)"
+curl ifconfig.io
+ls
+curl -s ifconfig.me
+curl -s ifconfig.me > archivo_ip.txt
+ls
+cat archivo_ip.txt 
+curl ifconfig.io > archivo_ip.txt 
+ls
+cat archivo_ip.txt 
+echo "Mi IP publica es:" $(curl ifconfig.io) > archivo_ip.txt 
+cat archivo_ip.txt 
+clear
+echo "Mi usuario es: " $(whoami) >> archivo_ip.txt 
+ls
+cat archivo_ip.txt 
+sudo cat /etc/shadow | grep $(whoami) | awk -F ':' '{print"Mi hash es: $2"}'
+sudo cat /etc/shadow | grep $(whoami) | awk -F ':' '{print"Mi hash es:",2}'
+sudo cat /etc/shadow | grep $(whoami) | awk -F ':' '{print"Mi hash es:",$2}'
+clear
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+pwd
+git remote get-url origin
+git status
+clear
+pwd
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cd ..
+ls
+cd ..
+ls
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/ | echo "Mi repositorio es: " $(git remote get-url origin) >> archivo.txt
+pwd
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+pwd
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli | echo "Mi repositorio es: " $(gir remote get-url origin) >> archivo.txt
+clear
+ls
+cat archivo.txt 
+rm archivo.txt 
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+pwd
+echo "Mi IP publica es:" $(curl ifconfig.io) > Filtro_avanzado.txt
+ls
+cat Filtro_avanzado.txt 
+"Mi usuario es: " $(whoami) >> Filtro_avanzado.txt 
+"Mi usuario es: "$(whoami) >> Filtro_avanzado.txt 
+ls
+cat Filtro_avanzado.txt 
+"Mi usuario es: "$(whoami)
+"Mi usuario es: " whoami
+"Mi usuario es: " (whoami)
+"Mi usuario es: " $(whoami)
+whoami
+"Mi usuario es: $(whoami)"
+"Mi usuario es: $(whoami)" >> Filtro_avanzado.txt 
+cat Filtro_avanzado.txt 
+echo "Mi usuario es: $(whoami)" >> Filtro_avanzado.txt 
+cat Filtro_avanzado.txt 
+clear
+sudo cat /etc/shadow | grep $(whoami) | awk -F ':' '{print"Mi hash es:",$2}' >> Filtro_avanzado.txt
+ls
+cat Filtro_avanzado.txt 
+sudo cat /etc/shadow
+clear
+ls
+cat Filtro_avanzado.txt 
+clear
+pwd
+git remote get-url origin /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/
+claer
+clear
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/ | git remote get-url origin
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/ | echo "La URL de mi repositorio es: $(git remote get-url origin)"
+clear
+ls
+rm Filtro_avanzado.txt 
+ls
+clear
+ls
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_F.sh 
+pwd
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+pwd
+clear
+echo "Mi IP publica es:" $(curl ifconfig.io) > /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Galli/RTA_ARCHIVOS_Examen_20241003/Filtro_avanzado.txt
+ls
+cat Filtro_avanzado.txt 
+clear
+rm Filtro_avanzado.txt 
+ls
+clear
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+vim Punto_F.sh 
+ls
+sudo chmod 777 Punto_F.sh 
+ls
+clear
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+clear
+cd 
+ls
+rm script_prueba_ext4.sh 
+rm script_prueba_montaje.sh 
+ls
+clear
+ls
+cd repogit/
+ls
+rm archivo.txt 
+rm archivo_ip.txt 
+ls
+clear
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+./Punto_F.sh 
+ls
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+cat Filtro_avanzado.txt 
+ls
+cd ..
+clear
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+cat echo 
+rm echo 
+ls
+vim Punto_F.sh 
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+rm Filtro_avanzado.txt 
+ls
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+./Punto_F.sh
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+clear
+cat Filtro_avanzado.txt 
+clear
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_SCRIPT_Examen_20241003/
+ls
+sudo chmod 755 Punto_A.sh
+ll
+sudo chmod 755 Punto_B.sh
+ll
+clear
+sudo chmod 755 Punto_C.sh
+ll
+sudo chmod 755 Punto_D.sh
+sudo chmod 755 Punto_E.sh
+sudo chmod 755 Punto_F.sh
+ll
+clear
+ls
+cd ..
+ll
+ls
+cd ..
+ls
+cd UTNFRA_SO_1P2C_2024_Galli/
+ls
+cd RTA_ARCHIVOS_Examen_20241003/
+ls
+rm Filtro_avanzado.txt 
+rm Filtro_Basico.txt 
+ls
+clear
+ñs
+ls
+cd ..
+ls
+vim README.md 
+ls
+cat README.md 
+clear
+ls
+pwd
+git status
+clear
+history+
+history
+clear
+cat $HOME/.bash_history
+ls
+$HOME/.bash_history > history.txt
+ls
+clear
+ls
+cat history.txt 
+ls
+clear
+cat history.txt 
+ls
+clear
